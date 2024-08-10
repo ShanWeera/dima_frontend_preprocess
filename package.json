@@ -1,0 +1,10 @@
+{
+    "name": "dimawasm",
+    "version": "0.4.3",
+    "private": true,
+    "scripts": {
+      "build": "wasm-pack build --release -d ../../wasm_build_artifacts",
+      "pack": "npm pack -w ../../wasm_build_artifacts"
+    }
+  }
+  
